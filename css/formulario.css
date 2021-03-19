@@ -1,0 +1,54 @@
+.formulario {
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+form label {
+    color: rgb(47, 50, 56);
+    ;
+    font-size: 140%;
+    width: 100%;
+}
+
+form input {
+    width:100%;
+    font-size: 120%;
+}
+
+form textarea {
+    width: 100%;
+    font-size: 140%;
+}
+
+/*///////////////////////////////////////////////*/
+#form-ingreso{
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+    margin-top: 25vh;
+}
+#form-ingreso input{
+    text-align: center;
+}
+#contrasena{
+    width: auto;
+    height: 100px;
+    font-size: large;
+}
+.contenedor-form{
+    color: black;
+    opacity: 0.3;
+}
+.boton_form {
+    background-color: rgb(69, 44, 151);
+}
+.boton_form :hover{
+    background-color: rgb(50, 44, 73);
+}
