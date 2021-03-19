@@ -19,11 +19,37 @@
     }
     /*////////////////      menu    ///////////*/
 .menupelotas{
-    width: 75%;
+    display: none;
+}
+.menupelotasmovil{
+    margin-top: 0;
+    display: block;
+}
+    #bolas1{
+    box-sizing: border-box;
+   
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
     
 }
+#bolas2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+#bolamovil{
+    width: 120px;
+}
     .bolasDeMenu{
-        width: 70px;
+        width: 120px;
     }
 
     /*////////////////      CAJAS    ///////////*/

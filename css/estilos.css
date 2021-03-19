@@ -21,7 +21,9 @@ main {
     display: none;
 }
 
-
+.menupelotasmovil{
+    display: none;
+}
 .menupelotas{
     box-sizing: border-box;
    
