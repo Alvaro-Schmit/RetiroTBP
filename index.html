@@ -9,142 +9,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="./css/formulario.css">
     <link rel="stylesheet" href="./css/grid.css">
-    <script defer src="../js/index.js"></script>
-    <script defer src="../js/JQuery-3.5.1.min.js"></script>
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/JQuery-3.5.1.min.js"></script>
 </head>
 
 <body>
-<hr id="top">
-
-    <main>
-        <div class="menupelotas">
-            <div class="logo">
-                <img id="logo" src="./logo/TBP_babyblue_vertical.png" alt="">
-             </div>
-
-                    <a href="#idyoga">
-                        <img class="bolasDeMenu" src="./image/pixlr-bg-result(3).png" alt="">
-                    </a>
-                    <a href="#idreuniones">
-                        <img class="bolasDeMenu" src="./image/pixlr-bg-result(4).png" alt="">
-                    </a>
-                    <a href="#idinfo">
-                        <img class="bolasDeMenu" src="./image/pixlr-bg-result(5).png" alt="">
-                    </a>
-                    <a href="#top">
-                        <img class="bolasDeMenu" src="./image/pixlr-bg-result(6).png" alt="" style="position: fixed;
-                        z-index: 22;">
-                    </a>
-        </div>
-    </main>
-    <div class="zoom">
-            <a  href="https://us02web.zoom.us/j/4589161061?pwd=QlRkU0NIUnJUZi9CLzNlWjRjSm9XZz09">
-                <h1>ENTRAR A REUNION AO VIVO</h1>
-            </a>
-    </div>
     
+<fieldset id="form-ingreso">
 
+    <form id="contrasena" name="form" action="INICIO SESION">
+    <input type="password" name=password placeholder="Ingrese la contrasena">
+    <input class="boton_form" id="btn" onclick="ir()" type=button value="ENTRAR AL RETIRO">
+ 
+</fieldset>
+
+<div class="contenedor-form">
+
+    
     <div class="slayder">
-       <img src="./image/Diseño sin título(2).png" alt="">
+        <!-- <h1>Texto de bienvenida.</h1>
+
+        <p class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iae odit cupiditate culpa, provident pariatur perferendis fugiat laborum. aqui va una descripcion que haga referencia a lo destacado de la arquitectura de la empresa Something short and leading about the collection <span>below—its contents, the creator, etc. Make it short and sweet, but not too short so fo.</span></p> -->
+<img src="./image/Diseño sin título(2).png" alt="">
+
     </div>
 
-<br>
+ 
 
-    <section class="sectionClass" id="idyoga">
-        <h1>CLASES DE YOGA</h1>
-        <div  class="galeriaVideos">
-    
-            <div id="card-video1" class="videosCards">
-               
-                <iframe  class="efecto_imagen" width="560" height="315" src="https://www.youtube.com/embed/ydORW-IH0EY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
-                    <h4>Yoga del sabado </h4>
-            </div>
-    
-            <div id="card-video2" class="videosCards">
-               
-                <iframe class="efecto_imagen" width="560" height="315" src="https://www.youtube.com/embed/6PGPj8Ira1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </a>
-                <h4>Yoga del Domingo</h4>
-            </div>
-    
-           
-        </div>
-    </section>
-<br>
-    <section class="sectionClass" id="idreuniones">
-        <h1>REUNIONES GRABADAS</h1>
-        <div  class="galeriaVideos">
-    
-            <div id="card-video1" class="videosCards">
-               
-                <iframe class="efecto_imagen" width="560" height="315" src="https://www.youtube.com/embed/eRmDWMiOrC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
-                    <h4>Reunion del Viernes de noche </h4>
-            </div>
-    
-            <div id="card-video2" class="videosCards">
-               
-                <iframe class="efecto_imagen" width="560" height="315" src="https://www.youtube.com/embed/6PGPj8Ira1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </a>
-                <h4>Reunion del Sabado de mañana</h4>
-            </div>
-            <div id="card-video3" class="videosCards">
-               
-                <iframe class="efecto_imagen" width="560" height="315" src="https://www.youtube.com/embed/DjsPRimNTyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
-                    <h4>Reunion del Sabado de noche</h4>
-            </div>
-    
-            <div id="card-video4" class="videosCards">
-                <iframe class="efecto_imagen" width="560" height="315" src="https://www.youtube.com/embed/_-kWIOQ_kzk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
-                <h4>Reunion del Domingo de mañana</h4>
-            </div>
-
-        </div>
-    </section>
-
-
-    <br>
-    <section class="sectionClass" id="idreuniones">
-        <h1>RECOMENDACIONES</h1>
-
-    <section>
-        <div class="information" id="idinfo">
-                
-                    <div id="reglasBox1" class="infobox">
-                            <h3>Video de Bienvenida:</h3>
-                            <div class="videosCards">
-                                 <iframe class="efecto_imagen"  src="https://www.youtube.com/embed/VBWlgP_1kZs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                            </div>
-                    </div>
-
-                    <div id="reglasBox2" class="infobox" >
-                        <p>Este es nuestro espacio de retiro – donde encontrarás el horario en vivo (y el acceso) a los webinars, las repeticiones de las reuniones, e información y recursos de apoyo para que los consultes, y los utilices, durante nuestro retiro.</p>
-                        <p>Desplázate hacia abajo para explorar más y regresa aquí cada día durante nuestro retiro. Estos recursos online estarán disponibles sólo durante el transcurso del retiro. ¡Gracias por ser una parte importante de nuestro primer retiro para Ascendedores Online!</p>
-                    </div>
-
-                    <div id="reglasBox3" class="infobox">
-                            <h3>Información del retiro</h3>
-                                <p>&nbsp; <span>.</span> Todo lo que se comparte durante el retiro es solo para los Ascendedores que asisten. 100% confidencial.</p>
-                                <p>&nbsp; <span>.</span> Por favor no compartas la contraseña con nadie más</p>
-                                <p>&nbsp; <span>.</span> Asegúrate que tienes privacidad para asistir a las reuniones en directo o para escuchar la repetición. Usa audífonos si hay alguien en tu casa que pueda escuchar.</p>
-                                <p>&nbsp; <span>.</span> Entra 5 minutos antes de la hora del webinar.</p>
-                                <p>&nbsp; <span>.</span> Por favor no estés en otras actividades mientras asistes a la reunión en directo o viendo la repetición.</p>
-                                <p>&nbsp; <span>.</span> Por favor comprométete de lleno a este retiro, de la forma que lo harías con un retiro ‘en persona’</p>
-                                <p>&nbsp; <span>.</span> Contribuye con preguntas y compartires cuando seas invitado. </p>
-                                <p>&nbsp; <span>.</span> Si se te invita a hablar por favor mantén tu compartir y tus preguntas concisas (menos de 5 minutos).</p>
-                                <p>&nbsp; <span>.</span> No se darán Actitudes de Ascensión en línea.</p>
-                                    <p>&nbsp; <span>.</span> Si no sabes cómo usar Zoom (comentar en el chat, cómo silenciarte, etc.) por favor pregunta a algún maestro por un tutorial antes de que el retiro comience.</p>
-                    </div>
-        </div>
-    </section>
-<br>
     <footer>
         <div class="footer">
-            <h6>brasil@thebrightpath.com</h6>
+            <h6>e-mail: arqgonzalosilva@gmail.com</h6>
             <img src="./logo/TBP_babyblue_horizontal (1).png" alt="">
         </div>
     </footer>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+<script src="contrasena.js"></script>
 </body>
 
 </html>

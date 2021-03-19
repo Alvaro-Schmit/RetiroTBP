@@ -2,7 +2,7 @@ function ir(){
 let c=108;
 if(document.form.password.value==c){
 
-window.location="index.html";}
+window.location="OnePage.html";}
 else{
 alert('Contrasena incorreta');
 }
