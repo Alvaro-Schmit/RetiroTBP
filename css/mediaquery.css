@@ -102,8 +102,12 @@
 footer img {
     width: 80px;
 }
-
-
-}
 /*////////////////      INGRESO CON CLAVE    ///////////*/
 
+form input {
+    margin: 3px 10px 3px 10px;
+    width:94%;
+    font-size: x-large;
+}
+
+}

@@ -1,9 +1,3 @@
-.formulario {
-    border-radius: 5px;
-    width: 60%;
-    margin: auto;
-}
-
 form label {
     color: rgb(47, 50, 56);
     ;
@@ -13,12 +7,12 @@ form label {
 
 form input {
     width:100%;
-    font-size: 120%;
+    font-size: x-large;
 }
 
 form textarea {
     width: 100%;
-    font-size: 140%;
+    font-size: x-large;
 }
 
 /*///////////////////////////////////////////////*/
@@ -33,9 +27,11 @@ form textarea {
     position: fixed;
     z-index: 20;
     margin-top: 25vh;
+    box-sizing: border-box;
 }
 #form-ingreso input{
     text-align: center;
+    height: 60px;
 }
 #contrasena{
     width: auto;
@@ -49,6 +45,10 @@ form textarea {
 .boton_form {
     background-color: rgb(69, 44, 151);
 }
-.boton_form :hover{
-    background-color: rgb(50, 44, 73);
+
+#btn:hover{
+    transform: scale(1, 1.08);
+   background-color: rgb(50, 44, 73);
+   color: rgb(241, 252, 252);
+   font-size:x-large;
 }
