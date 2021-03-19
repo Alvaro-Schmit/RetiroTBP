@@ -17,6 +17,9 @@ main {
     width: 150px;
     margin-top: 60px;
 }
+#slayder2{
+    display: none;
+}
 
 
 .menupelotas{
@@ -69,12 +72,7 @@ footer img {
     width: 200px;
 }
 .slayder{
-    border-radius: 6px;
-    text-align: center;
-    color: #d4e7f7;
-    margin: 20px;
-    background-color: rgba(178, 240, 248, 0.1);
-    padding: 40px;
+      padding: 40px;
 }
 
 .slayder img{
@@ -115,7 +113,8 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
 }
-.galeriaVideos{
+
+.boxBlue{
     border-radius: 6px;
     text-align: center;
     color: #d4e7f7;
@@ -135,14 +134,7 @@ h1 {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 80px;
 
-    border-radius: 6px;
-    text-align: center;
-    color: #d4e7f7;
-    margin: 20px;
-
-    background-color: rgba(178, 240, 248, 0.1);
-    box-sizing: border-box;
-    padding: 26px;
+   
     height: auto;
 }
 #reglasBox1 {
@@ -184,11 +176,7 @@ h1 {
 /*ZZZZOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM/*/
 
 .zoom{
-    border-radius: 6px;
-    text-align: center;
-    color: #d4e7f7;
-    margin: 20px;
-    background-color: rgb(67, 130, 202);
+ 
     padding: 16px;
 
 }
