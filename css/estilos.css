@@ -45,7 +45,6 @@ main {
 } 
 
 
-
 /*///////////////////////       ////////////////////////*/
 
 .efecto_imagen,
@@ -172,14 +171,15 @@ h1 {
 /*ZZZZOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM/*/
 
 .zoom{
-    display: none;
+    display: block;
 }
 
 /*ZZZZOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM/*/
 
 .zoom{
- 
+    text-decoration: none;
     padding: 16px;
+    background-color: antiquewhite;
 
 }
 .zoom h1{
@@ -187,4 +187,8 @@ h1 {
    color: #16102b;
     font-weight: bolder;
     margin-top: 10px;
+}
+.zoom h1:hover{
+    cursor: pointer;
+    transform: scale(1.01, 1.01);
 }
