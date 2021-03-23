@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-color: #16102b;
+    background-color: #2e2b38;
 }
 /*///////////////// ///////////////////////*/
 
@@ -106,10 +106,11 @@ h1 {
     justify-content:space-evenly;
 }
 
-.videosCards iframe{
+.efecto_imagen{
+    border-radius: 6px;
     padding: 5px;
     width: 400px;
-    height: 250px;
+    height: 240px;
     margin: 7px;
     margin-top: 24px;
     margin-bottom: 5px;
@@ -125,7 +126,7 @@ h1 {
     color: #d4e7f7;
     margin: 20px;
 
-    background-color: rgba(178, 240, 248, 0.1);
+    background-color: rgba(140, 233, 250, 0.2);
     box-sizing: border-box;
     padding: 26px;
 }
@@ -175,7 +176,7 @@ h1 {
 /*ZZZZOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM/*/
 
 .zoom{
-    display: block;
+    display: none;
 }
 
 /*ZZZZOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM/*/

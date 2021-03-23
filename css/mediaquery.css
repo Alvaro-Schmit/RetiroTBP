@@ -79,7 +79,7 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-.videosCards iframe{
+.efecto_imagen{
     padding: 5px 0px 0px 5px;
     width: 280px;
     height: 160px;
@@ -276,7 +276,7 @@ form input {
     margin-bottom: 0px !important;
    
 }
-.videosCards iframe{
+.efecto_imagen{
     border-radius: 5px;
   
 }}
@@ -406,7 +406,7 @@ form input {
 /*////////////////////////////////////////////////////////*/
 
 @media only screen and (min-width: 780px) and (max-width: 1024px){
-    .videosCards iframe{
+    .efecto_imagen{
         width: 280px;
     height: 160px;
         border-radius: 5px;
