@@ -47,8 +47,7 @@ main {
 
 /*///////////////////////       ////////////////////////*/
 
-.efecto_imagen,
-.galeria_imagen {
+.efecto_imagen {
     border: solid rgba(0, 0, 0, 0.4) 1px;
     border-radius: 0.5%;
     transition: opacity;
