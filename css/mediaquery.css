@@ -23,7 +23,8 @@
         display: none;
     }
     #slayder2{
-        display:block
+        display:block;
+        padding: 10px;
     }
     /*////////////////      menu    ///////////*/
 .menupelotas{
@@ -82,7 +83,7 @@
 .efecto_imagen{
     padding: 5px 0px 0px 5px;
     width: 320px;
-    height: 180px;
+    height: 200px;
     margin: 24px 0px 5px 0px ;
   
 }
