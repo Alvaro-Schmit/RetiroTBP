@@ -24,8 +24,10 @@
     }
     #slayder2{
         display:block;
-        padding: 10px;
+      
+        padding: auto;
     }
+    
     /*////////////////      menu    ///////////*/
 .menupelotas{
     display: none;
@@ -81,8 +83,8 @@
     margin-right: 0px;
 }
 .efecto_imagen{
-    padding: 5px 0px 0px 5px;
-    width: 320px;
+    padding: 5px;
+    width: 340px;
     height: 200px;
     margin: 24px 0px 5px 0px ;
   
