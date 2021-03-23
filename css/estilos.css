@@ -63,15 +63,23 @@ main {
 }
 
 .footer{
-    margin: 20px;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 footer img {
-    width: 200px;
+    width: 180px;
 }
+
+.footer h6{
+    color: #d4e7f7;
+
+}
+
 .slayder{
       padding: 40px;
 }
@@ -87,10 +95,6 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
     color:#d4e7f7;
-}
-.footer h6{
-    color: #d4e7f7;
-    margin-left: 3%;
 }
 
 /*/////////////////////VIDEOS ////////////*/

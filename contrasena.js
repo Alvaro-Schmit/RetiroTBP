@@ -7,23 +7,24 @@ else{
 alert('Contrasena incorreta');
 }
 }
-
+window.addEventListener('DOMContentLoaded', function(event){
+  const clave = document.getElementById('clave')
+  const entrada = document.getElementById('btn')
+  entrada.addEventListener('click', ir)
+})
 /*//////////////////////////////////////////*/
 
+// nombredelcampo.addEventListener("keyup", miFuncion(event))
+// function miFuncion(e) {
+//     if (e.key == "Enter") {
+//         console.log("Presionó ENTER")
+//         }
+// }
 
-function desplazarMe(titulo) {
-  $('html, body').animate({
-      scrollTop: $('#' + titulo).offset().top
-  }, 1600)
-}
-
-
-
-$('#llenarPlantilla').click(function() {
-  desplazarMe("plantilla")
-})
-
-
-$('#btnVolverACotizar').click(function() {
-  desplazarMe("plantilla")
-})
+// function capturarEnter(event) {
+//   let c=108;
+//     if (clave.value==c && event.keyCode == 13) { // 13 es el código asociado a la tecla enter
+//        window.location="OnePage.html"; 
+     
+//      }
+//  }
