@@ -124,7 +124,7 @@
    
 }
 
-.infobox span{
+#reglasBox3 span{
     font-size: 36px;
     font-weight: bolder;
 }
@@ -392,7 +392,7 @@ form input {
     margin-bottom: 0px !important;
 }
 
-.infobox span{
+#reglasBox3 span{
     font-size: 36px;
     font-weight: bolder;
 }
@@ -402,6 +402,11 @@ form input {
     padding-top: 10%;
     color:#d4e7f7;
     font-weight: bold;
+}
+#videoBoasVindas{
+    width: 280px;
+    height: 180px;
+    margin-top: 40px;
 }
 
   }
@@ -414,5 +419,10 @@ form input {
     height: 160px;
         border-radius: 5px;
       
+    }
+    #videoBoasVindas{
+        width: 320px;
+        height: 200px;
+        margin-top: 30px;
     }
 }
