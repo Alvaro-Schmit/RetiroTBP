@@ -215,7 +215,6 @@ h1 {
 .zoom a{
     text-decoration: none;
 }
-.zoom:hover{background-color: rgb(250, 206, 8);}
 
 .contenedorzoom{
   padding-top: 10px;
@@ -236,3 +235,4 @@ h1 {
     50%{background:rgb(230, 144, 88)}
     100%{background:rgb(241, 70, 40)}
 }
+.zoom:hover{background-color: rgb(173, 142, 243);}
