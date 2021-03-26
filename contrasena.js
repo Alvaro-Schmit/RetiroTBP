@@ -1,30 +1,44 @@
-function ir(){
-let c=108;
-if(document.form.password.value==c){
 
-window.location="OnePage.html";}
-else{
-alert('Contrasena incorreta');
+function ir(event){
+  event.preventDefault();
+  let c = "108";
+  if(document.form.password.value === c){
+    window.location="OnePage.html";
+  }else{
+    console.log("Contrasena incorreta");
+  }
 }
-}
-const entrada = document.getElementById('btn')
+
 
 window.addEventListener('DOMContentLoaded', function(event){
-
-  entrada.addEventListener('click', ir)
+  document.querySelector('form').addEventListener('submit', ir)
 })
 
 
-/*//////////////////////////////////////////*/
 
-// function entrarConEnter ()
-// {
-//   window.addEventListener('keyup', entrarConEnter)
-//   if (e.key == "Enter"){ 
-//     window.location="OnePage.html";}
-//     else{
-//     alert('Contrasena incorreta');
-//     }
-//     }
+
+// let password = document.getElementById("password")
+// function ir(){
+// let c=108;
+//        if(password.value == c){
+//           window.location="OnePage.html";}
+//       else{
+//           alert('Contrasena incorreta');
+//       }
+// }
+
+// const entrada = document.getElementById('btn')
+
+// window.addEventListener('DOMContentLoaded', function(event){
+
+//   entrada.addEventListener('click', ir)
+// })
+
+// password.addEventListener("keypress", entrarConEnter(event))
+
+// function entrarConEnter(e){
+//   if(e.key == "Enter")
+//   ir()
+// }
 
   
