@@ -36,8 +36,6 @@ main {
 }
 .menupelotas{
     box-sizing: border-box;
-   
-   
     width: 85%;
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +49,10 @@ a{
 }
 .bolasDeMenu{
     width: 150px;
+}
+#bola4{
+    position: fixed;
+    opacity: 0.9;
 }
 .bolasDeMenu:hover {
  opacity: 0.90;
@@ -138,42 +140,54 @@ h1 {
 
 
 .information{
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-gap: 30px;
-   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    justify-content: center;
+    box-sizing: border-box;
     height: auto;
 }
-.videoDeInfo{
-    margin-top: 8%;
+
+.information h3{
+    padding-top: 10%;
+    padding-bottom: 4%;
+    color:#d4e7f7;
+    font-weight: bold;
+    font-size: 23px;
 }
-#reglasBox1 {
-    
-    grid-area: 1/1/5/2;
-   
+.infobox{
+    padding-bottom: 2%;
+}
+.videoDeInfo{
+   padding-bottom: 10%;
+   padding-top: 3%;
+}
+#reglasBox1 {   
+    width: 50%;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.2);
+    border: solid 6px rgba(41, 39, 59, 0.211);
+    border-radius: 5px;
+}
+#reglasBox1 h3{
+    font-size: 26px;
+}
+#reglasBox1 p{
+    font-size: 19px;
+    padding:0px 3% 0px 2.2%;
 }
 
-#reglasBox2 {
-    border-radius: 6px;
-    padding-top: 5%;
-    grid-area: 5/1/9/2;
-    background-color: rgba(0, 0, 0, 0.2);
-    
-}
-#reglasBox2 p{
-    font-size: large;
-}
-#reglasBox3 {
-    grid-area: 1/2/9/3;
+
+#reglasBox3{
+    width: 50%;
+    height: auto;
 }
 #reglasBox3 p{
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     color:#d4e7f7;
     margin-bottom: 0px !important;
+    padding-left: 5%;
 }
 
 #reglasBox3 span{
@@ -182,15 +196,7 @@ h1 {
 }
 
 
-.information h3{
-    padding-top: 10%;
-    color:#d4e7f7;
-    font-weight: bold;
-}
 #conamor2{display: none;}
-#reglasBox1 h3{
-    padding-top: 11%;
-}
 
 /*ZZZZOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMM/*/
 
@@ -236,13 +242,14 @@ h1 {
     
     animation: change 1s linear infinite alternate both;
 }
-
+/* 
 @keyframes change {
     0%{background:rgb(218, 126, 65)}
     50%{background:rgb(230, 144, 88)}
     100%{background:rgb(241, 70, 40)}
-}
-.zoom:hover{background-color: rgb(173, 142, 243);}
+} */
+
+.zoom:hover{background-color: rgb(102, 111, 230);}
 #slayder img{
     width: 98%;
     
