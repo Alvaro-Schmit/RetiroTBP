@@ -20,9 +20,6 @@ main {
 }
 
 #slayder1{
-
-   
-    padding: 10px;
     margin-bottom: 0px;
 }
 
@@ -134,7 +131,7 @@ h1 {
 
     background-color: rgba(140, 233, 250, 0.2);
     box-sizing: border-box;
-    padding: 26px;
+    padding: 24px;
 }
 /*//////////////////////    INFO    ///////////////////*/
 
@@ -254,3 +251,5 @@ h1 {
     width: 98%;
     
     }
+
+    
