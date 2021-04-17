@@ -67,7 +67,7 @@ a{
 /*///////////////////////       ////////////////////////*/
 
 .efecto_imagen {
-    border: solid rgba(0, 0, 0, 0.4) 1px;
+    border: solid rgb(244, 182, 9) 0.4px;
     border-radius: 0.5%;
     transition: opacity;
 }
