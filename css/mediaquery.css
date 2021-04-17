@@ -7,11 +7,20 @@
 
 /*//////////////////////////////////*/
    
+body{
+    
+    background-image: url(../image/backgrounds/TBP_Stock_Texture_06horiz.jpeg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
     h1 {
         margin-top: 10px;
         margin-bottom: 20px;
         text-align: center;
-        color:#d4e7f7;
+        color:#ffffff;
         font-size:x-large;
     }
     
@@ -69,12 +78,12 @@
 
     /*////////////////      CAJAS    ///////////*/
 .boxBlue{
-    border-radius: 6px;
+    border-radius: 4px;
     text-align: center;
-    color: #d4e7f7;
+    color: #ffffff;
     margin: 4px 7px 20px 7px;
 
-    background-color: rgba(178, 240, 248, 0.1);
+    background-color: rgba(51, 51, 51, 1);
     box-sizing: border-box;
     padding: 8px; 
 }
@@ -111,7 +120,7 @@
     
 }
 #reglasBox1 {
-    border-radius: 6px;
+    border-radius: 4px;
     width: 100%;
     height: auto;
     padding-top: 5%;
@@ -124,7 +133,7 @@
 #reglasBox3 p{
     text-align: left;
     font-size: 18px;
-    color:#d4e7f7;
+    color:#ffffff;
     margin-bottom: 0px !important;
 }
 
@@ -136,7 +145,7 @@
 
 .information h3{
     padding-top: 4%;
-    color:#d4e7f7;
+    color:#ffffff;
     font-weight: bold;
 }
 #reglasBox3 h3{
@@ -146,7 +155,7 @@
 /*////////////////      footer    ///////////*/
 .footer h6{
     font-size: smaller;
-    color: #d4e7f7;
+    color: #333333;
     margin-left: 3%;
 }
 footer img {
@@ -169,12 +178,12 @@ form input {
     height: auto;
     text-decoration: none;
     padding: 16px;
-    background-color: antiquewhite;
+    background-color: #ffffff;
 
 }
 .zoom h4{
     text-decoration: none;
-   color: #16102b;
+   color: #333333;
     font-weight: bolder;
     font-size: small;
     margin-top: 10px;
@@ -184,7 +193,7 @@ form input {
 /*///////////// 482 --- 599   ////////////////////////*/
 @media only screen and (min-width: 482px) and (max-width: 600px){
     .boxBlue{
-        border-radius: 6px;
+        border-radius: 4px;
         margin: 7px;
         box-sizing: border-box;
         padding: 10px;
@@ -195,7 +204,7 @@ form input {
         margin-top: 10px;
         margin-bottom: 20px;
         text-align: center;
-        color:#d4e7f7;
+        color:#ffff;
         font-size:xx-large;
     }
     
@@ -234,7 +243,7 @@ form input {
     
 }
 #reglasBox1 {
-    border-radius: 6px;
+    border-radius: 4px;
     width: 100%;
     height: auto;
     padding-top: 5%;
@@ -249,12 +258,12 @@ form input {
 #reglasBox3 p{
     text-align: left;
     font-size: 18px;
-    color:#d4e7f7;
+    color:#ffff;
     margin-bottom: 0px !important;
 
 }
 .efecto_imagen{
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 #conamor1{
@@ -264,12 +273,17 @@ form input {
     display: block;
     margin-bottom: 20px;
 }
+.zoom{
+    width: 34%;
+}
 .zoom h4{
     text-decoration: none;
-   color: #16102b;
+   color: #333333;
     font-weight: bolder;
     font-size:large;
     margin-top: 10px;
+     font-size: 70%;
+   
 }
 }
 
@@ -277,7 +291,7 @@ form input {
 /*/////////////        600 --- 922   ////////////////////////*/
 @media only screen and (min-width: 600px) and (max-width: 922px){
     .boxBlue{
-        border-radius: 6px;
+        border-radius: 4px;
         margin: 7px;
         box-sizing: border-box;
         padding: 10px;
@@ -376,7 +390,7 @@ form input {
         font-size: 28px;
     }
     #reglasBox1 {
-        border-radius: 6px;
+        border-radius: 4px;
         width: 100%;
         padding-top: 5%;
     }
@@ -392,7 +406,7 @@ form input {
        
     }
     .efecto_imagen{
-        border-radius: 5px;
+        border-radius: 4px;
       
     }
 
@@ -416,7 +430,7 @@ form input {
 /*////////////////////////////////////////////////////////*/
 
 .zoom{
-    width: 30%;
+    width: 34%;
     padding: 16px;
 }
 .zoom h4{
@@ -431,7 +445,7 @@ form input {
     .efecto_imagen{
         width: 280px;
     height: 160px;
-        border-radius: 5px;
+        border-radius: 4px;
       
     }
    
@@ -440,6 +454,10 @@ form input {
    
     width: 30%;
     height: auto;
+}
+.zoom h4{
+   
+    font-size: 100%;
 }
 
 /*//////////////////////    INFO    ///////////////////*/

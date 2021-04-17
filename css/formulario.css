@@ -8,6 +8,9 @@ form label {
 form input {
     width:100%;
     font-size: x-large;
+    background-color: #ffffff;
+    border:rgb(244, 182, 9) solid 2px;
+    
 }
 
 form textarea {
@@ -26,7 +29,7 @@ form textarea {
     align-items: center;
     position: fixed;
     z-index: 20;
-    margin-top: 25vh;
+    margin-top: 50vh;
     box-sizing: border-box;
 }
 #form-ingreso input{
@@ -43,7 +46,8 @@ form textarea {
     opacity: 0.3;
 }
 .boton_form {
-    background-color: rgb(69, 44, 151);
+    border: #ffffff solid 2px;
+    background-color: rgb(244, 182, 9) ;
 }
 
 #btn:hover{
@@ -51,4 +55,7 @@ form textarea {
    background-color: rgb(50, 44, 73);
    color: rgb(241, 252, 252);
    font-size:x-large;
+}
+.footer h6{
+    color:#333333;
 }
