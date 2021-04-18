@@ -42,7 +42,7 @@ form textarea {
     font-size: large;
 }
 .contenedor-form{
-    color: black;
+    color:#333333;
     opacity: 0.3;
 }
 .boton_form {
@@ -51,9 +51,10 @@ form textarea {
 }
 
 #btn:hover{
+    border: rgb(244, 182, 9) solid 2px;
     transform: scale(1, 1.08);
-   background-color: rgb(50, 44, 73);
-   color: rgb(241, 252, 252);
+   background-color: #ffffff;
+   color: #333333;
    font-size:x-large;
 }
 .footer h6{
