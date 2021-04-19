@@ -58,6 +58,7 @@ a{
     width: 150px;
 }
 #bola4{
+    z-index: 24;
     position: fixed;
     opacity: 0.7;
 }
@@ -69,18 +70,23 @@ a{
 
 /*///////////////////////       ////////////////////////*/
 
-.efecto_imagen {
+.efecto_imagen, #infocierre {
     border: solid rgb(244, 182, 9) 0.4px;
     border-radius: 2px;
     transition: opacity;
 }
+#infocierre{
+    border: none;
+}
 .efecto_imagen:hover {
+  
+    
     cursor: pointer;
     border: solid rgba(0, 0, 0, 0.9) 1.3px;
-    opacity: 0.85;
+   
     border-radius: 6px;
-    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.75);
-    transform: scale3d(1.02, 1.01, 1);
+    box-shadow: 4px 9px 20px rgba(0, 0, 0, 0.75);
+    transform: scale3d(1.02, 1.02, 1);
 }
 
 .footer{
@@ -124,7 +130,7 @@ h4{
     justify-content:space-evenly;
 }
 
-.efecto_imagen{
+.efecto_imagen, #infocierre{
     border-radius: 6px;
     padding: 5px;
     width: 400px;
