@@ -96,7 +96,7 @@ body{
     margin-left: 0px;
     margin-right: 0px;
 }
-.efecto_imagen, #infocierre{
+.efecto_imagen,.infocierre{
     padding: 5px;
     width: 340px;
     height: 200px;
@@ -264,7 +264,7 @@ form input {
     margin-bottom: 0px !important;
 
 }
-.efecto_imagen, #infocierre{
+.efecto_imagen,.infocierre{
     border-radius: 4px;
 }
 
@@ -368,7 +368,7 @@ form input {
         padding:0px 3% 0px 2.2%;
        
     }
-    .efecto_imagen, #infocierre{
+    .efecto_imagen,.infocierre{
         border-radius: 4px;
       
     }
@@ -405,7 +405,7 @@ form input {
 /*////////////////////////////////////////////////////////*/
 
 @media only screen and (min-width: 780px) and (max-width: 1024px){
-    .efecto_imagen, #infocierre{
+    .efecto_imagen,.infocierre{
         width: 280px;
     height: 160px;
         border-radius: 4px;
@@ -462,7 +462,7 @@ form input {
 
 @media only screen and (min-width: 1200px){
 
-.efecto_imagen, #infocierre{
+.efecto_imagen,.infocierre{
     width: 520px;
     height: 280px;
 }

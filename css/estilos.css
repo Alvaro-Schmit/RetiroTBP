@@ -70,14 +70,12 @@ a{
 
 /*///////////////////////       ////////////////////////*/
 
-.efecto_imagen, #infocierre {
+.efecto_imagen, .infocierre {
     border: solid rgb(244, 182, 9) 0.4px;
     border-radius: 2px;
     transition: opacity;
 }
-#infocierre{
-    border: none;
-}
+
 .efecto_imagen:hover {
   
     
@@ -103,7 +101,7 @@ footer img {
 }
 
 .footer h6{
-    color: #d4e7f7;
+    color: #333333;
 
 }
 
@@ -130,7 +128,7 @@ h4{
     justify-content:space-evenly;
 }
 
-.efecto_imagen, #infocierre{
+.efecto_imagen, .infocierre{
     border-radius: 6px;
     padding: 5px;
     width: 400px;
